@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+      <LinearLayout 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="left"
+          android:orientation="vertical"
+          >
+           <TextView
+                android:id="@+id/isselectcarspeed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/tv_bg"
+                android:gravity="center"
+                android:text="@string/carspeedselect"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/isselectcarbalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tv_bg"
+                android:gravity="center"
+                android:text="@string/carbalance"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/isselectcarlocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tv_bg"
+                android:gravity="center"
+                android:text="@string/carlocation"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/isselectcarrecord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tv_bg"
+                android:gravity="center"
+                android:text="@string/carrecord"
+                android:textColor="@color/white" />
+            
+
+            <TextView
+                android:id="@+id/isselecttrafficstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tv_bg"
+                android:gravity="center"
+                android:text="@string/trafficstatus"
+                android:textColor="@color/white" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:gravity="right"
+          android:orientation="vertical" >
+
+          <TextView
+              android:id="@+id/isselectparklist"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="dp"
+              android:layout_marginTop="20dp"
+              android:background="@drawable/tv_bg"
+              android:gravity="center"
+              android:text="@string/parklist"
+              android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/isselectparkrate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tv_bg"
+                android:gravity="center"
+                android:text="@string/parkrate"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/isselectfreecar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tv_bg"
+                android:gravity="center"
+                android:text="@string/freecar"
+                android:textColor="@color/white" />
+            
+            <TextView
+                android:id="@+id/isselecttrafficconfig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tv_bg"
+                android:gravity="center"
+                android:text="@string/trafficconfig"
+                android:textColor="@color/white" />
+            
+            <TextView
+                android:id="@+id/isselectlightsense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tv_bg"
+                android:gravity="center"
+                android:text="@string/lightsense"
+                android:textColor="@color/white" />
+      </LinearLayout>
+
+       <LinearLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentBottom="true"
+           android:layout_marginBottom="10dp"
+           android:orientation="vertical"
+           >
+           <TextView
+                android:id="@+id/isselectetcrate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tv_bg"
+                android:gravity="center"
+                android:text="@string/etcrate"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/isselectetclist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tv_bg"
+                android:gravity="center"
+                android:text="@string/etclist"
+                android:textColor="@color/white" />
+       </LinearLayout>
+
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            >
+            <TextView
+                android:id="@+id/isselectallsense"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tv_bg"
+                android:gravity="center"
+                android:text="@string/allsense"
+                android:textColor="@color/white" />
+
+            
+            
+        </LinearLayout>
+
+         <LinearLayout 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentBottom="true"
+             android:layout_marginBottom="10dp"
+             android:layout_marginRight="10dp"
+             >
+             <TextView
+                android:id="@+id/isselectbusstation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tv_bg"
+                android:gravity="center"
+                android:text="@string/busstation"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/isselectroadstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tv_bg"
+                android:gravity="center"
+                android:text="@string/roadstatus"
+                android:textColor="@color/white" />
+         </LinearLayout>  
+            
+            
+
+
+            
+
+
+</RelativeLayout>

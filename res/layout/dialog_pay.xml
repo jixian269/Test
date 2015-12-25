@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_bg" >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/setting"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        />
+    <View 
+        android:layout_width="300dp"
+        android:layout_height="0.5px"
+        android:background="@color/gray"
+        />
+    
+    <EditText 
+        android:id="@+id/dialog_carpayid"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:hint="请输入小车编号1-4"
+        android:background="@drawable/edt_bg"
+        />
+    
+    <EditText 
+        android:id="@+id/dialog_carpay"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="充值金额为1-9999"
+        android:inputType="number"
+        android:background="@drawable/edt_bg"
+        />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        >
+        
+        <Button 
+            android:id="@+id/dialog_carpaycomfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            />
+        <Button 
+            android:id="@+id/dialog_carpayancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+

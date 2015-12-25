@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/gray" >
+    
+    <LinearLayout 
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="@drawable/login"
+        >
+        
+       <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:gravity="center"
+           android:layout_gravity="center"
+           android:text="@string/login"
+           android:textColor="@color/red"
+           android:textSize="17sp"
+           />
+       <View 
+           android:layout_width="fill_parent"
+           android:layout_height="0.5px"
+           android:background="@color/gray"
+           />
+       <EditText 
+           android:id="@+id/login_name"
+           android:layout_width="250dp"
+           android:layout_height="40dp"
+           android:layout_gravity="center"
+           android:layout_marginTop="15dp"
+           android:hint="@string/logname"
+           android:inputType="text"
+           android:textColor="@color/black"
+           android:background="@drawable/edt_bg"
+           />
+       <EditText 
+           android:id="@+id/login_pass"
+           android:layout_width="250dp"
+           android:layout_height="40dp"
+           android:layout_gravity="center"
+           android:layout_marginTop="20dp"
+           android:hint="@string/pass"
+           android:inputType="textPassword"
+           android:background="@drawable/edt_bg"
+           />
+       
+       <LinearLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           >
+           <CheckBox 
+           android:id="@+id/login_remberpass"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left"
+           android:layout_marginLeft="20dp"
+           android:layout_marginTop="10dp"
+           android:text="@string/rempass"
+           android:textSize="17sp"
+           />
+       
+       <TextView 
+           android:id="@+id/login_setip"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="40dp"
+           android:layout_marginTop="5dp"
+           android:text="@string/setip"
+           android:textSize="17sp"
+           />
+       </LinearLayout>
+       
+           
+           <Button 
+               android:id="@+id/login_confirm"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginTop="20dp"
+               android:text="@string/confirm"
+               android:textColor="@color/white"
+               android:background="@drawable/butt_bg"
+               />
+           
+       
+           <TextView 
+           android:id="@+id/login_register"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left"
+           android:text="@string/registernow"
+           android:textColor="@color/red"
+           android:textSize="18sp"
+           />
+    </LinearLayout>
+
+</RelativeLayout>

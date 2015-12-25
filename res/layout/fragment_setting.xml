@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <TextView 
+        android:id="@+id/setting_showguide"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:gravity="center"
+        android:text="@string/show"
+        android:textColor="@color/white"
+        android:background="@drawable/tv_bg"
+        />
+
+    <TextView 
+        android:id="@+id/setting_language"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="200dp"
+        android:gravity="center"
+        android:text="@string/language"
+        android:textColor="@color/white"
+        android:background="@drawable/tv_bg"
+        />
+    
+    <TextView 
+        android:id="@+id/settting_setip"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="300dp"
+        android:gravity="center"
+        android:text="@string/updateip"
+        android:textColor="@color/white"
+        android:background="@drawable/tv_bg"
+        />
+</LinearLayout>
